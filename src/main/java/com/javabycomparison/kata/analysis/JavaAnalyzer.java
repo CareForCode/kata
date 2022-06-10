@@ -13,6 +13,7 @@ public class JavaAnalyzer implements Analyzer {
     this.file = file;
   }
 
+
   @Override
   public ResultData analyze() throws IOException {
     if (file != null) {
